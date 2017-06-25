@@ -1,1 +1,10 @@
+this source is for IBM PC 
+data segment
+sourcefile label byte
+soulent db 64
+soulent1 db ?
+------------------
+MOV ES:[DI],CH
 
+
+MOV ES:[DI+1],CH
